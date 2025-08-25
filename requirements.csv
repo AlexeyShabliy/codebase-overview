@@ -1,162 +1,162 @@
 id,requirement
-1.1.1,Редактор должен отображать JSON файлы с подсветкой синтаксиса в соответствии со спецификацией JSON
-1.1.2,Редактор должен обеспечивать редактирование JSON файлов с сохранением синтаксической корректности
-1.1.3,Редактор должен отображать ошибки синтаксиса JSON в реальном времени
-1.1.4,Редактор должен обеспечивать автодополнение ключей и значений в JSON файлах
-1.2.1,Редактор должен отображать YAML файлы с подсветкой синтаксиса в соответствии со спецификацией YAML
-1.2.2,Редактор должен обеспечивать редактирование YAML файлов с сохранением синтаксической корректности
-1.2.3,Редактор должен отображать ошибки синтаксиса YAML в реальном времени
-1.2.4,Редактор должен обеспечивать автодополнение ключей и значений в YAML файлах
-1.3.1,Редактор должен отображать XML файлы с подсветкой синтаксиса в соответствии со спецификацией XML
-1.3.2,Редактор должен обеспечивать редактирование XML файлов с сохранением синтаксической корректности
-1.3.3,Редактор должен отображать ошибки синтаксиса XML в реальном времени
-1.4.1,Редактор должен обеспечивать конвертацию JSON в YAML с сохранением структуры данных
-1.4.2,Редактор должен обеспечивать конвертацию YAML в JSON с сохранением структуры данных
-1.4.3,Редактор должен обеспечивать конвертацию JSON в XML с сохранением структуры данных
-1.4.4,Редактор должен обеспечивать конвертацию XML в JSON с сохранением структуры данных
-1.4.5,Редактор должен обеспечивать конвертацию YAML в XML с сохранением структуры данных
-1.5.1,Редактор должен обрабатывать drag-and-drop файлов JSON в область редактирования
-1.5.2,Редактор должен обрабатывать drag-and-drop файлов YAML в область редактирования
-1.5.3,Редактор должен обрабатывать drag-and-drop файлов XML в область редактирования
-1.5.4,Редактор должен отображать визуальный индикатор при перетаскивании файлов
-1.5.5,Редактор должен проверять тип файла перед загрузкой
-1.6.1,Редактор должен обрабатывать Ctrl+S (Cmd+S) для сохранения файла
-1.6.2,Редактор должен обрабатывать Ctrl+Z (Cmd+Z) для отмены действия
-1.6.3,Редактор должен обрабатывать Ctrl+Y (Cmd+Y) для возврата действия
-1.6.4,Редактор должен обрабатывать Ctrl+F (Cmd+F) для поиска в тексте
-1.7.1,Редактор должен сохранять историю изменений для каждого файла
-1.7.2,Редактор должен позволять отменять изменения в обратном порядке их внесения
-1.7.3,Редактор должен позволять возвращать отмененные изменения
-1.7.4,Редактор должен отображать доступные действия в истории изменений
-1.8.1,Редактор должен подсвечивать ключевые слова в JSON файлах
-1.8.2,Редактор должен подсвечивать строки в JSON файлах
-1.8.3,Редактор должен подсвечивать числа в JSON файлах
-1.8.4,Редактор должен подсвечивать комментарии в JSON файлах
-1.8.5,Редактор должен подсвечивать ключевые слова в YAML файлах
-1.10.1,Редактор должен искать текст с учетом регистра
-1.10.2,Редактор должен искать текст без учета регистра
-1.10.3,Редактор должен искать текст с использованием регулярных выражений
-1.10.4,Редактор должен заменять найденный текст
-1.10.5,Редактор должен заменять все вхождения найденного текста
-1.10.6,Редактор должен отображать количество найденных вхождений
-2.1.1,Валидатор должен проверять соответствие JSON файла указанной JSON Schema
-2.1.2,Валидатор должен отображать ошибки несоответствия JSON Schema
-2.1.3,Валидатор должен указывать точное местоположение ошибок в JSON файле
-2.1.4,Валидатор должен предоставлять описание ошибок валидации
-2.2.1,Валидатор должен проверять соответствие YAML файла указанной JSON Schema
-2.2.2,Валидатор должен отображать ошибки несоответствия JSON Schema
-2.2.3,Валидатор должен указывать точное местоположение ошибок в YAML файле
-2.2.4,Валидатор должен предоставлять описание ошибок валидации
-2.3.1,Валидатор должен проверять соответствие XML файла указанной XSD схеме
-2.3.2,Валидатор должен отображать ошибки несоответствия XSD схеме
-2.3.3,Валидатор должен указывать точное местоположение ошибок в XML файле
-2.3.4,Валидатор должен предоставлять описание ошибок валидации
-2.4.1,Валидатор должен проверять файл при каждом изменении
-2.4.2,Валидатор должен отображать ошибки в реальном времени
-2.4.3,Валидатор должен обновлять список ошибок при исправлении
-2.4.4,Валидатор должен подсвечивать проблемные места в тексте
-2.5.1,Валидатор должен предлагать исправления для синтаксических ошибок
-2.5.2,Валидатор должен предлагать исправления для ошибок структуры
-2.5.3,Валидатор должен применять исправления по запросу пользователя
-2.5.4,Валидатор должен сохранять историю автоматических исправлений
-3.1.1,Визуальный редактор должен отображать JSON структуру в виде дерева
-3.1.2,Визуальный редактор должен позволять добавлять новые узлы в JSON
-3.1.3,Визуальный редактор должен позволять удалять узлы из JSON
-3.1.4,Визуальный редактор должен позволять редактировать значения в JSON
-3.1.5,Визуальный редактор должен позволять перемещать узлы в JSON
-3.2.1,Визуальный редактор должен отображать YAML структуру в виде дерева
-3.2.2,Визуальный редактор должен позволять добавлять новые узлы в YAML
-3.2.3,Визуальный редактор должен позволять удалять узлы из YAML
-3.2.4,Визуальный редактор должен позволять редактировать значения в YAML
-3.2.5,Визуальный редактор должен позволять перемещать узлы в YAML
-4.1.1,Редактор схем должен отображать JSON Schema с подсветкой синтаксиса
-4.1.2,Редактор схем должен позволять редактировать JSON Schema
-4.1.3,Редактор схем должен проверять корректность JSON Schema
-4.1.4,Редактор схем должен поддерживать автодополнение для JSON Schema
-4.2.1,Редактор схем должен отображать XSD схему с подсветкой синтаксиса
-4.2.2,Редактор схем должен позволять редактировать XSD схему
-4.2.3,Редактор схем должен проверять корректность XSD схемы
-4.2.4,Редактор схем должен поддерживать автодополнение для XSD
-4.3.1,Визуализатор должен отображать структуру JSON Schema
-4.3.3,Визуализатор должен отображать связи между элементами схем
-4.3.4,Визуализатор должен позволять настраивать отображение
-4.4.1,Редактор схем должен позволять добавлять новые элементы
-4.4.2,Редактор схем должен позволять удалять элементы
-4.4.3,Редактор схем должен позволять редактировать свойства элементов
-4.5.1,Генератор должен создавать JSON Schema из JSON данных
-4.5.3,Генератор должен определять типы данных
-4.5.4,Генератор должен создавать описания для элементов
-4.6.1,Валидатор схем должен проверять корректность JSON Schema
-4.6.3,Валидатор схем должен отображать ошибки в схемах
-4.7.1,Система должна объединять несколько JSON Schema в одну
-4.7.2,Система должна разрешать конфликты при объединении
-4.7.3,Система должна сохранять структуру при объединении
-4.7.4,Система должна проверять результат объединения
-4.8.1,Система должна разрешать ссылки на внешние схемы
-4.8.2,Система должна кэшировать разрешенные ссылки
-4.8.3,Система должна обрабатывать циклические ссылки
-4.8.4,Система должна отображать зависимости между схемами
-5.1.1,Интерфейс должен позволять разделять рабочую область на панели
-5.1.2,Интерфейс должен позволять изменять размер панелей
-5.1.3,Интерфейс должен позволять перемещать панели
-5.1.4,Интерфейс должен сохранять расположение панелей
-5.2.1,Интерфейс должен адаптироваться под ширину экрана
-5.2.2,Интерфейс должен адаптироваться под высоту экрана
-5.2.3,Интерфейс должен перестраивать панели при изменении размера
-5.2.4,Интерфейс должен сохранять пропорции при изменении размера
-5.3.1,Интерфейс должен поддерживать светлую тему
-5.3.2,Интерфейс должен поддерживать темную тему
-5.3.3,Интерфейс должен автоматически определять тему системы
-5.3.4,Интерфейс должен позволять выбирать тему вручную
-5.4.1,Система должна отображать уведомления о успешных действиях
-5.4.2,Система должна отображать уведомления об ошибках
-5.4.3,Система должна отображать уведомления о предупреждениях
-5.4.4,Система должна позволять настраивать время отображения
-5.5.1,Система должна запрашивать подтверждение при закрытии с несохраненными изменениями
-5.5.2,Система должна запрашивать подтверждение при удалении данных
-5.5.3,Система должна запрашивать подтверждение при отмене изменений
-5.5.4,Система должна запрашивать подтверждение при применении автоматических исправлений
-5.6.1,Интерфейс должен позволять настраивать расположение панелей
-5.6.2,Интерфейс должен позволять сохранять конфигурацию панелей
-5.6.3,Интерфейс должен позволять загружать конфигурацию панелей
-5.6.4,Интерфейс должен позволять сбрасывать конфигурацию панелей
-5.7.1,Система должна сохранять настройки интерфейса
-5.7.2,Система должна сохранять настройки редактора
-5.7.3,Система должна сохранять настройки валидации
-5.7.4,Система должна сохранять настройки визуализации
-6.1.1,Система должна анализировать контекст редактирования
-6.1.2,Система должна предлагать релевантные подсказки
-6.2.1,Система должна предлагать автодополнение на основе схемы
-6.2.2,Система должна предлагать автодополнение на основе контекста
-6.2.4,Система должна фильтровать предложения по вводу
-6.3.2,Система должна генерировать код по примеру
-6.3.3,Система должна генерировать код по шаблону
-6.3.4,Система должна проверять сгенерированный код
-6.4.1,Система должна анализировать структуру кода
-6.4.4,Система должна генерировать отчеты анализа
-7.1.1,Система должна сохранять состояние редактора
-7.1.2,Система должна сохранять историю изменений
-7.1.3,Система должна сохранять настройки сессии
-7.1.4,Система должна сохранять открытые файлы
-7.2.1,Система должна восстанавливать состояние редактора
-7.2.2,Система должна восстанавливать историю изменений
-7.2.3,Система должна восстанавливать настройки сессии
-7.2.4,Система должна восстанавливать открытые файлы
-7.3.1,Система должна экспортировать настройки в файл
-7.3.3,Система должна проверять совместимость настроек
-7.3.4,Система должна резервировать настройки
-7.4.1,Система должна сохранять историю изменений файлов
-7.4.4,Система должна позволять откатывать изменения
-8.1.1,Отладочная панель должна отображать текущее состояние
-8.2.1,Система должна анализировать структуру данных
-8.2.3,Система должна генерировать статистику
-8.2.4,Система должна визуализировать результаты анализа
-8.3.1,Система должна позволять создавать тестовые данные
-9.1.2,Система должна проверять совместимость схем
-9.2.2,Система должна проверять циклические зависимости
-9.2.3,Система должна разрешать зависимости
-9.3.4,Система должна объединять изменения в схемах
-10.1.1,Система должна поддерживать REST API
-10.4.1,Система должна позволять настраивать интерфейс
-10.4.2,Система должна позволять настраивать функциональность
-10.4.4,Система должна позволять настраивать горячие клавиши 
+1.1.1,The editor must display json files with syntax backlight in accordance with the json specification
+1.1.2,The editor must provide editing JSON files while maintaining syntactic correctness
+1.1.3,The editor must display json syntax errors in real time
+1.1.4,The editor must provide auto filling of keys and values ​​in JSON files
+1.2.1,The editor must display YAML files with syntax backlight in accordance with the YAML specification
+1.2.2,The editor must ensure the editing of YAML files while maintaining syntactic correctness
+1.2.3,The editor must display the errors of the YAML syntax in real time
+1.2.4,The editor must provide auto filling of keys and values ​​in YAML files
+1.3.1,The editor must display XML files with syntax backlight in accordance with the XML specification
+1.3.2,The editor must ensure editing XML files while maintaining syntactic correctness
+1.3.3,The editor must display errors of XML syntax in real time
+1.4.1,The editor must ensure JSON converting to YAML while maintaining the data structure
+1.4.2,The editor must ensure the converting YAML in JSON while maintaining the data structure
+1.4.3,The editor must ensure JSON converting to XML while maintaining the data structure
+1.4.4,The editor must ensure XML converting to JSON while maintaining the data structure
+1.4.5,The editor must ensure the converting of YAML in XML while maintaining the data structure
+1.5.1,The editor must process Drag-And-Drop JSON files to the editing area
+1.5.2,The editor must process DRAG-And-DROP files YAML to the editing area
+1.5.3,The editor must process the XML DRAG-And-DROP to the editing area
+1.5.4,The editor must display a visual indicator when dragging files
+1.5.5,The editor must check the file type before downloading
+1.6.1,The editor must process Ctrl+S (CMD+S) to save the file
+1.6.2,The editor must process ctrl+z (cmd+z) to cancel action
+1.6.3,The editor must process ctrl+y (cmd+y) to return action
+1.6.4,The editor must process Ctrl+F (CMD+F) to search in the text
+1.7.1,The editor must maintain the history of changes for each file
+1.7.2,The editor must allow the change in the reverse order of their introduction
+1.7.3,The editor must allow the return to the canceled changes
+1.7.4,The editor must display available actions in the history of changes
+1.8.1,The editor must highlight keywords in json files
+1.8.2,The editor must highlight the lines in json files
+1.8.3,The editor must highlight the numbers in json files
+1.8.4,The editor must highlight comments in json files
+1.8.5,The editor must highlight keywords in yaml files
+1.10.1,The editor must look for the text taking into account the register
+1.10.2,The editor must look for the text without accounting for the register
+1.10.3,The editor must look for a text using regular expressions
+1.10.4,The editor must replace the found text
+1.10.5,The editor must replace all the inputs of the found text
+1.10.6,The editor must display the number of income found
+2.1.1,The validator must check the correspondence of the json file of the specified Json Schema
+2.1.2,The validator must display errors of the inconsistency of Json Schema
+2.1.3,The validator must indicate the exact location of errors in the json file
+2.1.4,The validator must provide a description of validation errors
+2.2.1,The validator must check the correspondence of the YAML file of the specified JSON Schema
+2.2.2,The validator must display errors of the inconsistency of Json Schema
+2.2.3,The validator must indicate the exact location of errors in the YAML file
+2.2.4,The validator must provide a description of validation errors
+2.3.1,The validator must check the conformity of the XML file of the specified XSD scheme
+2.3.2,The validator must display errors of inconsistency XSD diagram
+2.3.3,The validator must indicate the exact location of errors in the XML file
+2.3.4,The validator must provide a description of validation errors
+2.4.1,The validator must check the file for every change
+2.4.2,The validator must display errors in real time
+2.4.3,The validator must update the list of errors when correcting
+2.4.4,The validator must highlight problem areas in the text
+2.5.1,The validator must offer corrections for syntactic errors
+2.5.2,The validator must offer corrections for structure errors
+2.5.3,The validator must apply corrections at the request of the User
+2.5.4,The validator must maintain the history of automatic corrections
+3.1.1,The visual editor must display a JSON structure in the form of a tree
+3.1.2,The visual editor should allow you to add new nodes to JSON
+3.1.3,The visual editor should allow you to remove the json nodes
+3.1.4,Visual editor must allow editing values ​​in json
+3.1.5,The visual editor must allow the nodes to json
+3.2.1,The visual editor must display the YAML structure in the form of a tree
+3.2.2,Visual editor should allow you to add new nodes to YAML
+3.2.3,The visual editor should allow you to remove the nodes from YAML
+3.2.4,Visual editor must allow editing values ​​in YAML
+3.2.5,The visual editor must allow the nodes to YAML
+4.1.1,The editor of the circuit must display JSON Schema with syntax lighting
+4.1.2,The editor of the schemes must allow editing JSON Schema
+4.1.3,The editor of the schemes must check the correctness of Json Schema
+4.1.4,The editor of the schemes must maintain auto -filling for JSON Schema
+4.2.1,The editor of the circuit must display the XSD circuit with syntax lighting
+4.2.2,The editor of the schemes must allow the XSD scheme to edit
+4.2.3,The editor of the schemes must check the correctness of the XSD scheme
+4.2.4,The editor of the schemes must maintain auto -filling for XSD
+4.3.1,The visualizer must display the JSON Schema structure
+4.3.3,The visualizer must display the relationship between the elements of the schemes
+4.3.4,The visualizer must allow you to configure the display
+4.4.1,The editor of the schemes must allow new elements to add
+4.4.2,The editor of the schemes must allow the elements to delete
+4.4.3,The editor of the schemes must allow editing the properties of elements
+4.5.1,The generator should create JSON Schema from JSON Data
+4.5.3,The generator must determine the types of data
+4.5.4,The generator must create descriptions for elements
+4.6.1,The circuit validator must check the correctness of JSON Schema
+4.6.3,The circuit validator must display errors in the schemes
+4.7.1,The system should combine several Json Schema into one
+4.7.2,The system should resolve conflicts when combining
+4.7.3,The system must maintain the structure when combining
+4.7.4,The system should check the result of the association
+4.8.1,The system should allow links to external schemes
+4.8.2,The system must cach permitted links
+4.8.3,The system must process cyclic links
+4.8.4,The system must display the dependence between the schemes
+5.1.1,The interface should allow you to divide the working area on the panel
+5.1.2,The interface should allow you to change the size of the panels
+5.1.3,The interface should allow you to move the panels
+5.1.4,The interface must maintain the location of the panels
+5.2.1,The interface should adapt to the width of the screen
+5.2.2,The interface should adapt to the height of the screen
+5.2.3,The interface must be rebuilding the panel when the size changes
+5.2.4,The interface must maintain proportions when the size changes
+5.3.1,The interface must support a bright topic
+5.3.2,The interface must support a dark topic
+5.3.3,The interface must automatically determine the theme of the system
+5.3.4,The interface should allow you to choose the topic manually
+5.4.1,The system must display notifications of successful actions
+5.4.2,The system must display error notifications
+5.4.3,The system must display notifications of warnings
+5.4.4,The system should allow you to configure the display time
+5.5.1,The system must request confirmation when closed with disrupted changes
+5.5.2,The system must request confirmation when deleting data
+5.5.3,The system must request confirmation when canceling changes
+5.5.4,The system should request confirmation when using automatic corrections
+5.6.1,The interface should allow you to configure the location of the panels
+5.6.2,The interface should allow you to maintain the configuration of the panels
+5.6.3,The interface should allow you to download the panel configuration
+5.6.4,The interface should allow you to discard the configuration of the panels
+5.7.1,The system must save the interface settings
+5.7.2,The system must save the editor settings
+5.7.3,The system must maintain validation settings
+5.7.4,The system must maintain visualization settings
+6.1.1,The system should analyze the context of editing
+6.1.2,The system should offer relevant tips
+6.2.1,The system should offer auto -filling based on the scheme
+6.2.2,The system should offer auto -filling based on context
+6.2.4,The system must filter the sentences for entry
+6.3.2,The system must generate code following the example
+6.3.3,The system must generate the code according to the template
+6.3.4,The system must check the generated code
+6.4.1,The system should analyze the structure of the code
+6.4.4,The system must generate analysis reports
+7.1.1,The system must maintain the condition of the editor
+7.1.2,The system must maintain the history of changes
+7.1.3,The system must save the session settings
+7.1.4,The system must save open files
+7.2.1,The system should restore the editor's condition
+7.2.2,The system must restore the history of changes
+7.2.3,The system should restore the session settings
+7.2.4,The system must restore open files
+7.3.1,The system must export the settings to the file
+7.3.3,The system should check the compatibility of the settings
+7.3.4,The system must reserve settings
+7.4.1,The system must maintain the history of file changes
+7.4.4,The system should allow changes
+8.1.1,The debug panel must display the current state
+8.2.1,The system must analyze the structure of data
+8.2.3,The system should generate statistics
+8.2.4,The system must visualize the results of the analysis
+8.3.1,The system should allow the creation of test data
+9.1.2,The system must check the compatibility of the schemes
+9.2.2,The system should check cyclic dependencies
+9.2.3,The system must resolve dependencies
+9.3.4,The system must combine changes in the schemes
+10.1.1,The system must support REST API
+10.4.1,The system should allow you to configure the interface
+10.4.2,The system should allow you to configure functionality
+10.4.4,The system should allow you to configure hot keys
